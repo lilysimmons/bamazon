@@ -1,8 +1,8 @@
-### Bamazon
+# Bamazon
 
 Amazon-like storefront via the terminal using Node.js and the MySQL. This CLI-app will take in orders from customers and deplete stock from the store's inventory using a MySQL database.
 
-## Prerequisites
+### Prerequisites
 
 ```
 required node packages: `mysql`, `inquirer`.  You will also need to set up a mySQL database.  I did this via mySQL Workbench.  Refer to schema.sql and seeds.sql files for creating and structuring your database.
@@ -12,7 +12,7 @@ required node packages: `mysql`, `inquirer`.  You will also need to set up a myS
 optional node packages: `cli-table` (makes the table pretty), `dotenv` (to hide your database info)
 ```
 
-## Installing
+### Installing
 
 ```
 npm install...
@@ -23,7 +23,7 @@ example:
 npm install mysql
 ```
 
-### USER FLOW
+## USER FLOW
 
 Navigate to the repository. In the command line, start the application by typing "node bamazonCustomer.js" into the command line.  This calls a function to immediately render a table of all the products for sale.  You will then be prompted by Inquirer to enter your name and choose the ID of the product you would like to buy, and the number of units:
 
